@@ -1,0 +1,24 @@
+.site-title {
+  h1 {
+    padding:25px;
+  }
+}
+.results-container {
+  height:650px;
+  padding:25px;
+  overflow-y: scroll;
+  img {
+    height:100px;
+    width:auto;
+  }
+  .json-results {
+    list-style-type: none;
+    padding:0;
+    li {
+      font-size:18px;
+    }
+    .product {
+      margin:45px 0;
+    }
+  }
+}
