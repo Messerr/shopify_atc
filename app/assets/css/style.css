@@ -420,7 +420,9 @@ textarea {
 .site-dropdown {
   padding: 25px; }
   .site-dropdown select {
-    width: 200px; }
+    width: 200px;
+    height: 60px;
+    font-size: 18px; }
 
 .site-title h1 {
   padding: 25px; }
@@ -428,7 +430,14 @@ textarea {
 button[name='refresh'] {
   margin: 25px;
   width: 200px;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: 0px;
+  border: 0px;
+  padding: 20px;
+  font-size: 20px; }
+
+button[name='refresh']:hover {
+  color: #FFF; }
 
 .results-container {
   height: 650px;
