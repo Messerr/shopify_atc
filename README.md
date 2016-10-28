@@ -1,8 +1,10 @@
 ## How To
 
 - Clone or Download Repo
-- In Chrome **CTRL+O** or **CMD+O** depending if you're on PC or Mac
-- Navigate to **index.html** in the **app** directory
+- Navigate to root of repo in Terminal
+- `npm install`
+- Then `gulp`
+- Your browser should open to the app automatically
 - Select a store from the dropdown and watch the magic happen
 
 ##NOTE!
