@@ -17,9 +17,10 @@ button[name='refresh'] {
 .results-container {
   height:650px;
   padding:25px;
+  border:1px solid #000;
   overflow-y: scroll;
   img {
-    height:100px;
+    height:200px;
     width:auto;
   }
   .json-results {
@@ -30,6 +31,18 @@ button[name='refresh'] {
     }
     .product {
       margin:45px 0;
+      a {
+        font-size:18px;
+      }
+      h3 {
+        font-size:20px;
+      }
+    }
+    .variants {
+      a {
+        font-size:18px;
+      }
+      font-size:16px;
     }
   }
 }

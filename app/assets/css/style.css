@@ -433,9 +433,10 @@ button[name='refresh'] {
 .results-container {
   height: 650px;
   padding: 25px;
+  border: 1px solid #000;
   overflow-y: scroll; }
   .results-container img {
-    height: 100px;
+    height: 200px;
     width: auto; }
   .results-container .json-results {
     list-style-type: none;
@@ -444,6 +445,14 @@ button[name='refresh'] {
       font-size: 18px; }
     .results-container .json-results .product {
       margin: 45px 0; }
+      .results-container .json-results .product a {
+        font-size: 18px; }
+      .results-container .json-results .product h3 {
+        font-size: 20px; }
+    .results-container .json-results .variants {
+      font-size: 16px; }
+      .results-container .json-results .variants a {
+        font-size: 18px; }
 
 @media print {
   * {
