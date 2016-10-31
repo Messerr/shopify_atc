@@ -418,16 +418,20 @@ textarea {
   text-shadow: none; }
 
 .site-dropdown {
-  padding: 25px; }
+  padding: 25px;
+  display: inline-block; }
   .site-dropdown select {
     width: 200px;
     height: 60px;
     font-size: 18px; }
 
-.site-title h1 {
-  padding: 25px; }
+.site-title {
+  display: inline-block; }
+  .site-title h1 {
+    padding: 25px; }
 
 button[name='refresh'] {
+  display: inline-block;
   margin: 25px;
   width: 200px;
   cursor: pointer;

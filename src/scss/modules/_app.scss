@@ -1,5 +1,6 @@
 .site-dropdown {
       padding:25px;
+      display:inline-block;
   select {
     width:200px;
     height:60px;
@@ -7,11 +8,13 @@
   }
 }
 .site-title {
+  display:inline-block;
   h1 {
     padding:25px;
   }
 }
 button[name='refresh'] {
+  display:inline-block;
   margin:25px;
   width:200px;
   cursor:pointer;
