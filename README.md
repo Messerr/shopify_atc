@@ -7,6 +7,10 @@
 - Your browser should open to the app automatically
 - Select a store from the dropdown and watch the magic happen
 
+
+## Error?
+- Try `npm rebuild` if your `gulp` command isn't working
+
 ##NOTE!
 - Some stores will not add directly to cart due to Shopify requiring a unique checkout token to verify the checkout is legit.
 - Currently not working: YZY Supply and Bdga
